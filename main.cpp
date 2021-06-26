@@ -79,6 +79,8 @@ int main()
                 else{
                     cout<< "\n\n\t \\\\   Expressão Incorreta!   //";
                 }
+
+                //Resetando a Pilha
                 while(!p.pilhaVazia()){
                     p.desempilhar();
                 }
